@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Talent Solution (PVT) LTD | Premium Manpower Services</title>
+    <meta name="description" content="Smart Talent Solution provides top-notch manpower and recruitment solutions for your business needs.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { primary: '#1e3a8a', secondary: '#f59e0b' }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full z-50 top-0 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <i class="fa-solid fa-users-gear text-primary text-4xl"></i>
+                    <div>
+                        <h1 class="font-bold text-xl md:text-2xl text-primary leading-tight">Smart Talent</h1>
+                        <span class="text-[10px] md:text-xs text-secondary font-bold tracking-[0.2em]">SOLUTION (PVT) LTD</span>
+                    </div>
+                </div>
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="nav-link text-gray-700 hover:text-secondary font-medium transition-all duration-300">Home</a>
+                    <a href="about.html" class="nav-link text-gray-700 hover:text-secondary font-medium transition-all duration-300">About Us</a>
+                    <a href="services.html" class="nav-link text-gray-700 hover:text-secondary font-medium transition-all duration-300">Services</a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-secondary font-medium transition-all duration-300">Contact Us</a>
+                </nav>
+                <div class="hidden md:flex items-center">
+                    <a href="contact.html" class="bg-primary hover:bg-blue-800 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-md">Get a Quote</a>
+                </div>
+                <!-- Mobile button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-primary focus:outline-none">
+                        <i class="fa-solid fa-bars text-3xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full shadow-2xl transition-all duration-300 origin-top">
+            <div class="px-4 pt-2 pb-6 space-y-1">
+                <a href="index.html" class="nav-link block px-3 py-3 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">Home</a>
+                <a href="about.html" class="nav-link block px-3 py-3 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">About Us</a>
+                <a href="services.html" class="nav-link block px-3 py-3 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">Services</a>
+                <a href="contact.html" class="nav-link block px-3 py-3 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50 bg-blue-50 text-primary mt-2">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="mt-20 hero-bg min-h-[85vh] flex items-center text-center px-4 relative">
+        <div class="max-w-4xl mx-auto fade-in relative z-10 pt-10">
+            <span class="inline-block py-1 px-3 rounded-full bg-secondary/20 border border-secondary text-yellow-300 text-sm font-semibold tracking-wider mb-6">ISO CERTIFIED AGENCY</span>
+            <h2 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">Empowering Business With <span class="text-secondary drop-shadow-lg">Top Talent</span></h2>
+            <p class="text-lg md:text-2xl text-blue-100 mb-10 font-light max-w-3xl mx-auto">Sri Lanka's premier manpower and recruitment agency. We bridge the gap between skilled professionals and companies demanding excellence.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="services.html" class="bg-secondary hover:bg-yellow-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:-translate-y-1 shadow-2xl flex items-center justify-center gap-2">Explore Services <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="contact.html" class="bg-transparent border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 flex items-center justify-center">Partner With Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="bg-primary text-white py-12 border-b-4 border-secondary relative z-20 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-blue-800">
+                <div>
+                    <h3 class="text-4xl md:text-5xl font-bold text-secondary mb-2">10+</h3>
+                    <p class="text-blue-200 font-medium">Years Experience</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl md:text-5xl font-bold text-secondary mb-2">500+</h3>
+                    <p class="text-blue-200 font-medium">Partner Companies</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl md:text-5xl font-bold text-secondary mb-2">15k+</h3>
+                    <p class="text-blue-200 font-medium">Successful Placements</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl md:text-5xl font-bold text-secondary mb-2">24/7</h3>
+                    <p class="text-blue-200 font-medium">Support & Service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h3 class="text-sm font-bold text-secondary uppercase tracking-widest mb-2">Why Choose Us</h3>
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary">Excellence in Manpower</h2>
+                <div class="w-24 h-1.5 bg-secondary mx-auto mt-6 rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Feature 1 -->
+                <div class="bg-gray-50 p-10 rounded-3xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-blue-50 group">
+                    <div class="w-20 h-20 bg-blue-100 text-primary rounded-2xl flex items-center justify-center text-3xl mb-8 group-hover:bg-primary group-hover:text-white transition-all duration-500 transform group-hover:rotate-6 shadow-sm">
+                        <i class="fa-solid fa-handshake"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-gray-800">Trusted Partnership</h4>
+                    <p class="text-gray-600 leading-relaxed">We build long-term relationships based on trust, transparency, and consistent delivery of high-quality personnel.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-gray-50 p-10 rounded-3xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-blue-50 group">
+                    <div class="w-20 h-20 bg-amber-100 text-secondary rounded-2xl flex items-center justify-center text-3xl mb-8 group-hover:bg-secondary group-hover:text-white transition-all duration-500 transform group-hover:-rotate-6 shadow-sm">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-gray-800">Fast Deployment</h4>
+                    <p class="text-gray-600 leading-relaxed">Our extensive database ensures quick sourcing and rapid placement of candidates to meet your urgent needs immediately.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-gray-50 p-10 rounded-3xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-blue-50 group">
+                    <div class="w-20 h-20 bg-blue-100 text-primary rounded-2xl flex items-center justify-center text-3xl mb-8 group-hover:bg-primary group-hover:text-white transition-all duration-500 transform group-hover:rotate-6 shadow-sm">
+                        <i class="fa-solid fa-medal"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-gray-800">Skilled Workforce</h4>
+                    <p class="text-gray-600 leading-relaxed">Rigorous screening processes guarantee that we provide only highly qualified, verified, and medically fit professionals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 relative bg-primary overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-fixed opacity-10"></div>
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+            <h2 class="text-4xl font-bold text-white mb-6">Ready to Scale Your Workforce?</h2>
+            <p class="text-xl text-blue-200 mb-10">Contact us today to discuss your manpower requirements and discover how Smart Talent Solution can drive your business forward.</p>
+            <a href="contact.html" class="inline-block bg-secondary hover:bg-yellow-500 text-white font-bold text-xl px-10 py-5 rounded-full shadow-2xl transition-all transform hover:scale-105">Get Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Branding -->
+                <div class="lg:col-span-1">
+                    <div class="flex items-center gap-3 mb-6">
+                        <i class="fa-solid fa-users-gear text-secondary text-4xl"></i>
+                        <div>
+                            <h2 class="font-bold text-2xl text-white">Smart Talent</h2>
+                            <span class="text-[10px] text-secondary font-bold tracking-[0.2em]">SOLUTION (PVT) LTD</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-8">Your trusted partner in manpower and recruitment. Bridging the gap between skilled professionals and companies demanding top-tier talent.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-secondary hover:text-white transition-all transform hover:-translate-y-1"><i class="fa-brands fa-facebook-f text-xl"></i></a>
+                        <a href="#" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-secondary hover:text-white transition-all transform hover:-translate-y-1"><i class="fa-brands fa-linkedin-in text-xl"></i></a>
+                        <a href="#" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-secondary hover:text-white transition-all transform hover:-translate-y-1"><i class="fa-brands fa-twitter text-xl"></i></a>
+                    </div>
+                </div>
+                <!-- Links -->
+                <div>
+                    <h4 class="text-xl font-bold mb-6 text-white border-b-2 border-primary inline-block pb-2">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="index.html" class="text-gray-400 hover:text-secondary transition-colors flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs"></i> Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-secondary transition-colors flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs"></i> About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-secondary transition-colors flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs"></i> Our Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-secondary transition-colors flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Services -->
+                <div>
+                    <h4 class="text-xl font-bold mb-6 text-white border-b-2 border-primary inline-block pb-2">Our Sectors</h4>
+                    <ul class="space-y-4">
+                        <li class="text-gray-400 flex items-center gap-2"><i class="fa-solid fa-helmet-safety text-secondary"></i> Construction & Engineering</li>
+                        <li class="text-gray-400 flex items-center gap-2"><i class="fa-solid fa-stethoscope text-secondary"></i> Healthcare Services</li>
+                        <li class="text-gray-400 flex items-center gap-2"><i class="fa-solid fa-user-tie text-secondary"></i> Corporate & IT</li>
+                        <li class="text-gray-400 flex items-center gap-2"><i class="fa-solid fa-industry text-secondary"></i> Factory & Manufacturing</li>
+                    </ul>
+                </div>
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-xl font-bold mb-6 text-white border-b-2 border-primary inline-block pb-2">Contact Info</h4>
+                    <ul class="space-y-6">
+                        <li class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-secondary flex-shrink-0 mt-1"><i class="fa-solid fa-location-dot"></i></div>
+                            <span class="text-gray-400">123 Business Avenue,<br>Colombo 03, Sri Lanka</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-secondary flex-shrink-0"><i class="fa-solid fa-phone"></i></div>
+                            <span class="text-gray-400">+94 11 234 5678</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-secondary flex-shrink-0"><i class="fa-solid fa-envelope"></i></div>
+                            <span class="text-gray-400">info@smarttalent.lk</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+                <p>&copy; 2026 Smart Talent Solution (PVT) LTD. All Rights Reserved.</p>
+                <div class="mt-4 md:mt-0 space-x-4">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
